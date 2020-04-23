@@ -1,17 +1,69 @@
-html {
-    height: 100%;
-}
+
 body {
-  color: white;
-  height: 100%;
+  color: black;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background: navy;
-  background: linear-gradient(black, navy, green);
+  background: white;
+}
+#foto {
+  width: 150px;
+  height: 150px;
+  box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset;
+}
+#pageTitle {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 100%;
+  grid-template-areas:
+  'leftie rightie';
+  grip-gap: 10px;
+  width: 100%;
+  background-color: DarkTurquoise;  background-image: linear-gradient(white , deepskyblue, deepskyblue, deepskyblue, white);
+}
+#leftSide {
+  grid-area: leftie;
+  text-align: center;
+  margin: 5px;
+}
+#rightSide {
+  grid-area: rightie;
+}
+#details {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100%;
+  grid-template-areas:
+    'west north east';
+  grid-gap: 10px;
+  width: 100%;
+}
+#left {
+  grid-area: west;
+  text-align: center;
+  border-left: solid;
+  border-color: deepskyblue;
+  height: 100%;
+  background-image: linear-gradient(to right, deepskyblue , white, white, white);
+}
+#center {
+  grid-area: north;
+  text-align: center;
+  border-left: solid;
+  border-color: dodgerblue;
+  height: 100%;
+  background-image: linear-gradient(to right, dodgerblue , white, white, white);
+}
+#right {
+  grid-area: east;
+  text-align: center;
+  border-left: solid;
+  border-color: navy;
+  height: 100%;
+  background-image: linear-gradient(to right, navy , white, white, white);
 }
 .helloItem {
-  color: white;
+  color: black;
   font-family: 'Cagliostro', sans-serif;
   font-size: 45px;
   margin: 40px 0px 10px 0px;
@@ -25,7 +77,7 @@ body {
 }
 .smallText {
   font-size: 12px;
-  color: white;
+  color: black;
 }
 .smallButton {
   border-radius: 5px;
@@ -65,6 +117,9 @@ body {
   color: red;
   border-color: blue;
 }
+.titles {
+  font-weight: bold;
+}
 /*
 @media (max-width: 600px) {
     .menut {
@@ -74,8 +129,8 @@ body {
 */
 /* Animations */
 .fadingIn {
-  --colorFrom: black;
-  --colorTo: white;
+  --colorFrom: white;
+  --colorTo: black;
    -moz-animation: colorChange 6s; /* Firefox */
    -webkit-animation: colorChange 6s; /* Safari      and Chrome */
    -o-animation: colorChange 6s; /* Opera */
