@@ -16,6 +16,19 @@ const cvDetails = {
   Espanja. Erinomainen.<br/><br/>
   </article>
   </p>
+  <p class= "titles">
+  Taitoja:
+  </p>
+  <p>
+  <article class= "facts fadingIn">
+  HTML5 ohjelmointi.<br/>
+  - sisältäen mm. CSS, Javascript, React, Node.js, MongoDB, MySql<br/><br/>
+  Asiakaspalvelu.<br/>
+  - 6 vuoden ammattikokemus.<br/><br/>
+  Tietokoneiden käyttö.<br/>
+  - yli 20 vuoden kokemus. sis. Mac, Linux, Windows, Palvelimet, Officet jne.<br/><br/>
+  </article>
+  </p>
   </div>`,
 
   `<div class= "finnish">
