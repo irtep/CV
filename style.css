@@ -1,26 +1,70 @@
 html {
     height: 100%;
 }
-
 body {
+  color: white;
   height: 100%;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background: navy;
-  background: linear-gradient(black, navy, purple);
+  background: linear-gradient(black, navy, green);
 }
-
 .helloItem {
   color: white;
-  text-align: center;
   font-family: 'Cagliostro', sans-serif;
   font-size: 45px;
   margin: 40px 0px 10px 0px;
   text-shadow: 0 0 4px #FFF;
-  z-index: 1;
 }
-
+.inCenter {
+  text-align: center;
+}
+.invis {
+  display: none;
+}
+.smallText {
+  font-size: 12px;
+  color: white;
+}
+.smallButton {
+  border-radius: 5px;
+  font-weight: bolder;
+}
+.smallButton:hover {
+  transition: 0.5s;
+  cursor: pointer;
+}
+#fiButton {
+  background-color: white;
+  color: navy;
+  border-color: blue;
+}
+#fiButton:hover {
+  background-color: navy;
+  color: white;
+  border-color: blue;
+}
+#enButton {
+  background-color: blue;
+  color: red;
+  border-color: navy;
+}
+#enButton:hover {
+  background-color: red;
+  color: blue;
+  border-color: blue;
+}
+#esButton {
+  background-color: red;
+  color: gold;
+  border-color: crimson;
+}
+#esButton:hover {
+  background-color: gold;
+  color: red;
+  border-color: blue;
+}
 /*
 @media (max-width: 600px) {
     .menut {
@@ -36,7 +80,6 @@ body {
    -webkit-animation: colorChange 6s; /* Safari      and Chrome */
    -o-animation: colorChange 6s; /* Opera */
 }
-
 @keyframes colorChange {
     from { color: var(--colorFrom); }
     to { color:var(--colorTo); }
