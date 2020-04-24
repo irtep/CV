@@ -10,7 +10,7 @@ const cvDetails = {
   Kielitaito:
   </p>
   <p>
-  <article class= "facts fadingIn">
+  <article class= "facts">
   Suomi. Äidinkieli.<br/><br/>
   Englanti. Erinomainen.<br/><br/>
   Espanja. Erinomainen.<br/><br/>
@@ -20,9 +20,9 @@ const cvDetails = {
   Taitoja:
   </p>
   <p>
-  <article class= "facts fadingIn">
+  <article class= "facts">
   HTML5 ohjelmointi.<br/>
-  - sisältäen mm. CSS, Javascript, React, Node.js, MongoDB, MySql<br/><br/>
+  - 3 vuoden kokemus, sisältäen mm. CSS, Javascript, React, Node.js, MongoDB, MySql<br/><br/>
   Asiakaspalvelu.<br/>
   - 6 vuoden ammattikokemus.<br/><br/>
   Tietokoneiden käyttö.<br/>
@@ -36,7 +36,7 @@ const cvDetails = {
   Koulutus:
   </p>
   <p>
-  <article class= "facts fadingIn">
+  <article class= "facts">
   2001. Merkonomi. Jyväskylän Kauppaoppilaitos.<br/><br/>
   2004. Datanomi. Pohjoisen Keski-Suomen Oppimiskeskus.<br/><br/>
   2018. Legacy Front End Developer Certification. Freecodecamp.org.
@@ -44,10 +44,10 @@ const cvDetails = {
   <p class= "titles">
   Luottotoimet:
   </p>
-  <article class= "facts fadingIn">
-  2019-> Webmaster. Halssilan Hieronta.<br/>
+  <article class= "facts">
+  2019-20. Webmaster. Halssilan Hieronta.<br/>
   - developer ja webmaster:  https://halssilanhieronta.net<br/><br/>
-  2018-> Webmaster. Rising Eagle Ry.<br/>
+  2018-20. Webmaster. Rising Eagle Ry.<br/>
   - developer ja webmaster: https://irtep.github.io/kyokushin-jkl/<br/><br/>
 	2006 Jyväskylän Jigotain taidojaos.<br/>
   - tiedotusvastaava.<br/><br/>
@@ -64,14 +64,14 @@ const cvDetails = {
   Työkokemus:
   </p>
   <p>
-  <article class= "facts fadingIn">
-  2019 -> Tämän hetkinen työni. <br/>Finse Oy.<br/>
+  <article class= "facts">
+  2019-20. Tämän hetkinen työni. <br/>Finse Oy.<br/>
   - 1 vuotta putkentaivuttaja.<br/>
   - 11 kk metallisahaaja.
   </article>
   </p>
   <p>
-  <article class= "facts fadingIn">
+  <article class= "facts">
   2015-2018. 3 vuotta, 2kk. <br/>Betsson Group.<br/>
   - 9kk Execution Coordinator, mainoskampanjoiden koordinointi ja toteutus.<br/>
   - 1 vuosi, 1kk Senior Customer Service Agent.<br/>
@@ -79,38 +79,38 @@ const cvDetails = {
   </article>
   </p>
   <p>
-  <article class= "facts fadingIn">
+  <article class= "facts">
   2014-2015. 9kk. <br/>Group Backpackers S.A.C.<br/>
   - Hostellin vastaanottovirkailija.
   </article>
   </p>
   <p>
-  <article class= "facts fadingIn">
+  <article class= "facts">
   2011-2014. 2 vuotta 9kk. <br/>RCI Europe.<br/>
   - Holiday Sales Consult.
   </article>
   </p>
   <p>
-  <article class= "facts fadingIn">
+  <article class= "facts">
   2006-2011. 5 vuotta 5kk. <br/>Finse Oy.<br/>
   - metallisahaaja.
   </article>
   </p>
   <p>
-  <article class= "facts fadingIn">
+  <article class= "facts">
   2005-2006. 2kk. Kampus Data.<br/>
   - Varastomies, pakettiautokuljettaja.
   </article>
   </p>
   <p>
-  <article class= "facts fadingIn">
+  <article class= "facts">
   2000-2005. 3 vuotta. Euromaster.<br/>
   - 1-3 kuukauden työjaksoja rengasmekanikkona.<br/>
   - 3 kuukautta rengasmyyjänä.
   </article>
   </p>
   <p>
-  <article class= "facts fadingIn">
+  <article class= "facts">
   2000. 2kk. Tielaitos.<br/>
   - Viheralueiden hoito, pihatyöt.
   </article>
