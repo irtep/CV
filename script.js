@@ -22,7 +22,7 @@ const cvDetails = {
   <p>
   <article class= "facts">
   HTML5 ohjelmointi.<br/>
-  - 3 vuoden kokemus, sisältäen mm. CSS, Javascript, React, Node.js, MongoDB, MySql<br/><br/>
+  - 3 vuoden kokemus, sisältäen mm. CSS, Javascript, React, Node.js, MongoDB, MySql, Git.<br/><br/>
   Asiakaspalvelu.<br/>
   - 6 vuoden ammattikokemus.<br/><br/>
   Tietokoneiden käyttö.<br/>
