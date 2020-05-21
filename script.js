@@ -234,31 +234,31 @@ const cvDetails = {
     <article class= "facts fadingIn violet">
     <span class= "empresa">Finse Oy.</span><br>
     2018-2020. Current job.<br/>
-    - 1 year, Bending machine operator.<br/>
-    - 11 months, Metalsawyer.
+    - 1 year, <span class= "goldText">Bending machine operator.</span><br/>
+    - 11 months, <span class= "goldText">Metalsawyer. </span>
     </article>
     </p>
     <p>
     <article class= "facts fadingIn">
     <span class= "empresa">Betsson Group.</span><br>
     2015-2018. 3 years, 2 months. <br/>
-    - 9 months, Execution Coordinator of marketing team.<br/>
-    - 1 year, 1 month Senior Customer Support Agent.<br/>
-    - 1 year, 6 months Customer Support Agent.
+    - 9 months, <span class= "goldText">Execution Coordinator of marketing team.</span><br/>
+    - 1 year, 1 month, <span class= "goldText">Senior Customer Support Agent.</span><br/>
+    - 1 year, 6 months, <span class= "goldText">Customer Support Agent</span>.
     </article>
     </p>
     <p>
     <article class= "facts fadingIn violet">
     <span class= "empresa">Group Backpackers S.A.C.</span><br>
     2014-2015. 9 months. <br/>
-    - Hostel Recepcionist.
+    - <span class= "goldText">Hostel Recepcionist.</span>
     </article>
     </p>
     <p>
     <article class= "facts fadingIn">
     <span class= "empresa">RCI Europe.</span><br>
     2011-2014. 2 years 9 months. <br/>
-    - Holiday Sales Consult.
+    - <span class= "goldText">Holiday Sales Consult.<br></span>
     - Comissions of trust: new hire coach, web champion, EVR champion, new members champion.
     </article>
     </p>
@@ -266,7 +266,7 @@ const cvDetails = {
     <article class= "facts fadingIn violet">
     <span class= "empresa">Finse Oy.</span><br>
     2006-2011. 5 years 5 months. <br/>
-    - Metalsawyer.
+    - <span class= "goldText">Metalsawyer.</span>
     </article>
     </p>
     </div>`
