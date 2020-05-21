@@ -1,10 +1,16 @@
-
+@import url('https://fonts.googleapis.com/css?family=Courgette|El+Messiri');
+@import url('https://fonts.googleapis.com/css?family=Anton|Audiowide');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron');
+* {
+  font-family: 'Audiowide', cursive;
+  text-shadow: 0 0 2px black;
+}
 body {
-  color: black;
+  color: white;
   margin: 0;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background: white;
+  background: black;
 }
 #foto {
   width: 150px;
@@ -13,22 +19,46 @@ body {
 }
 #pageTitle {
   display: grid;
-  grid-template-columns: 25% 75%;
+  grid-template-columns: 20% 30% 25% 25%;
   grid-template-rows: 100%;
   grid-template-areas:
-  'leftie rightie';
+  'leftie centerie rightie rightie2';
   grip-gap: 10px;
-  width: 100%;
+  width: 100%;/*
   background-color: DarkTurquoise;
-  background-image: linear-gradient(white , deepskyblue, dodgerblue, deepskyblue, white);
+  background-image: linear-gradient(to right, navy , white, white, white);
+*/
+  border: 6px solid black;
+  color: white;
+}
+#right2 {
+  grid-area: rightie2;
+  background-color: navy;
+  text-shadow: 0 0 4px white;
+  color: orange;
+  /*
+  background-image: linear-gradient(to right, dodgerBlue , dodgerBlue, dodgerBlue, black);
+*/
+  color: black;
 }
 #leftSide {
   grid-area: leftie;
   text-align: center;
-  margin: 5px;
+  /*margin: 5px;*/
+  background-color: navy;
+  /*
+  background-image: linear-gradient(to right, black , navy, navy, navy);
+ */
+}
+#centerSide {
+  background-color: navy;
+  grid-area: centerie,
 }
 #rightSide {
   grid-area: rightie;
+  background-color: navy;
+  color: orange;
+  text-shadow: 0 0 4px white;
 }
 #details {
   display: grid;
@@ -38,23 +68,59 @@ body {
     'west north east';
   grid-gap: 0px;
   width: 100%;
-  background-image: linear-gradient(white , deepskyblue, dodgerblue, dodgerblue, deepskyblue, white);
 }
 #left {
   grid-area: west;
   text-align: center;
   height: 100%;
+  /*
+  background-image: linear-gradient(to right, black , dodgerBlue, dodgerBlue, dodgerBlue);
+  */
+  background-color: dodgerBlue;
 }
 #center {
   grid-area: north;
   text-align: center;
   height: 100%;
+  background-color: dodgerBlue;
 }
 #right {
   grid-area: east;
   text-align: center;
   height: 100%;
+  /*
+  background-image: linear-gradient(to left, black , dodgerBlue, dodgerBlue, dodgerBlue);
+  */
+  background-color: dodgerBlue;
+  color: black;
 }
+.whiteText {
+  color: white;
+}
+.english {
+  padding: 1px;
+  border: solid 2px black;
+  height: 100%;
+}
+.dBbG {
+  background-color: dodgerBlue;
+}
+.blackText {
+  color: orange;
+}
+.violet {
+  /*
+  background-color: rgb(0, 102, 255);
+ */
+ background-color: rgb(0, 0, 77);
+}
+.empresa {
+  font-weight: bold;
+}
+.navyBlue {
+  background-color: navy;
+}
+/*
 .helloItem {
   color: black;
   font-family: 'Cagliostro', sans-serif;
@@ -62,9 +128,27 @@ body {
   margin: 40px 0px 10px 0px;
   text-shadow: 0 0 4px #FFF;
 }
+*/
+.cvBox {
+  padding: 5px;
+}
+.goldText {
+  color: gold;
+}
+.myName {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: 'Orbitron';
+  color: white;
+}
+.smallHeader {
+  font-weight: bold;
+  font-size: 20px;
+}
 .inCenter {
   text-align: center;
 }
+/*
 .invis {
   display: none;
 }
@@ -113,6 +197,7 @@ body {
 .titles {
   font-weight: bold;
 }
+*/
 /*
 @media (max-width: 600px) {
     .menut {
