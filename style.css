@@ -19,7 +19,7 @@ body {
 }
 #pageTitle {
   display: grid;
-  grid-template-columns: 20% 30% 25% 25%;
+  grid-template-columns: 20% 25% 25% 35%;
   grid-template-rows: 100%;
   grid-template-areas:
   'leftie centerie rightie rightie2';
