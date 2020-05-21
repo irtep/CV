@@ -33,8 +33,8 @@ const headerDetails = {
     <span class= "smallHeader whiteText">Contact:<br>
     </span>
     <p>
-    <span class= "goldText">Email:</span> <span class= "blackText">rasanen.petri@gmail.com</span><br>
-    <span class= "goldText">Phone:</span> <span class= "blackText">+358 45 156 9881</span>
+    <span class= "goldText">Email:<br></span> <span class= "blackText">rasanen.petri@gmail.com</span><br>
+    <span class= "goldText">Phone:<br></span> <span class= "blackText">+358 45 156 9881</span>
     </p>
     </div>`
   ]
@@ -267,21 +267,6 @@ const cvDetails = {
     <span class= "empresa">Finse Oy.</span><br>
     2006-2011. 5 years 5 months. <br/>
     - Metalsawyer.
-    </article>
-    </p>
-    <p>
-    <article class= "facts fadingIn">
-    <span class= "empresa">Kampus Data Oy.</span><br>
-    2005-2006. 9 months. <br/>
-    - Warehouse operative, Driver of van.
-    </article>
-    </p>
-    <p>
-    <article class= "facts fadingIn violet">
-    <span class= "empresa">Euromaster Oy</span><br>
-    2000-2005. 3 years. .<br/>
-    - 1-3 months part time jobs as tire mechanic.<br/>
-    - 3 months salesman.
     </article>
     </p>
     </div>`
